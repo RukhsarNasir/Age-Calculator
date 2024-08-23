@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to top, #a47958, #3f2d20);
+    color:#333;
+
+}
+h2 {
+    color: #241c1c;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 120px auto;
+    background: #fff;
+    background-image: url(backimg.avif);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: #241c1c;
+}
+.bd-calculation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+   color: #2e1e17;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+#month{
+    margin-left: 8px;
+}
+
+input[type="number"], 
+select {
+
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="month"], 
+select {
+
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="button"] {
+    width: 89%;
+    padding: 10px;
+    background-color: #56382c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #765438;
+}
+
+
+h3 {
+    text-align: center;
+    color: #3b1401;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
